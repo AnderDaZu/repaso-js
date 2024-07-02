@@ -1,7 +1,9 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
-import { fullName } from './bases/01-const-let'; './bases/01-const-let';
+
+// import { fullName } from './bases/01-const-let'; './bases/01-const-let';
+// import './bases/02-object'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -11,6 +13,5 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
-    <h1>${fullName}</h1>
   </div>
 `

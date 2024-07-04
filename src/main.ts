@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 
 // import { fullName } from './bases/01-const-let'; './bases/01-const-let';
 // import './bases/02-object'
+// import './bases/03-arrays'
+// import './bases/03-arrays'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

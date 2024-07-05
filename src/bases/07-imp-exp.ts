@@ -6,11 +6,11 @@
 import myHeroes, { owners, type Owner } from "../data/heroes"; // se puede asignar nombre cstm a la importación de exportación por defecto
 
 const getHeroById = (id: number) => {
-    return myHeroes.find( hero => hero.id === id ) ?? {};
+    return myHeroes.find( hero => hero.id === id );
 }
 
 export const getHeroById2 = (id: number) => (
-    myHeroes.find( hero => hero.id === id ) ?? {}
+    myHeroes.find( hero => hero.id === id )
 )
 
 export const getHeroesBayOwner = ( owner: Owner ) => {

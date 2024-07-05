@@ -9,6 +9,7 @@ import viteLogo from '/vite.svg';
 // import './bases/04-functions';
 // import './bases/05-deses-obj';
 // import './bases/06-deses-arr';
+import './bases/07-imp-exp';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
